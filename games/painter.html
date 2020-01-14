@@ -1,0 +1,106 @@
+﻿<!--
+  _  ______  __  __ ______ _____  
+ | |/ / __ \|  \/  |  ____|  __ \ 
+ | ' / |  | | \  / | |__  | |__) |
+ |  <| |  | | |\/| |  __| |  ___/ 
+ | . \ |__| | |  | | |____| |     
+ |_|\_\____/|_|  |_|______|_|     
+
+CONTACT: https://vk.com/mr_comer
+-->
+<html lang="en">
+    <head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta property="og:type" content="Website" />
+		<meta property="og:locale" content="ru_RU" />
+		<meta property="og:url" content="https://mrcomer.space/games/painter" />
+		<meta name="keywords" content="Комер, MrComer, MrComerYT, Мистер Комер, Комер ЮТ, Ютуб Комер, Лендинг сайт, Сайт-визитка, comer, komer, vova shmel, комер, Вова Шмель, Вова Хмель, Вова Комер, Комер Вова, игры, мини-игры, mrcomer.space, pain, паинт, пейнт, онлайн рисовалка, рисовалка, художник, interactive, developer, flash, html5, canvas, web, experiments">
+		<meta property="og:site_name" content="MRCOMER.SPACE" />
+		<meta property="og:title" content="ПАИНТ" />
+		<meta property="og:description" content="Прояви свои силы и нарисуй что-нибудь грандиозное" />
+		<meta property="og:image" content="../assets/img/favicon/favicon.ico" />
+		
+		<title>Паинт | mrcomer.space</title>
+		
+		<link rel="shortcut icon" href="../assets/img/favicon/favicon.ico">
+		<script src="../assets/js/all.min.js"></script>
+		<link rel="stylesheet" href="games/css.css" type="text/css">
+		<link rel="stylesheet" href="games/painter/default3.css" type="text/css" media="screen,projection,print">
+		<script type="text/javascript" src="games/painter/default-c.js"></script>
+    </head>
+	<body>
+	    <canvas id="mainCanvas" width="1000" height="560"></canvas>
+        <div class="app">
+			<canvas class="canvas" id="canvasBackground"></canvas>
+			<canvas class="canvas" id="canvasForeground" onmousedown="handleMouseDown(event)" onmouseup="handleMouseUp(event)" onmouseover="handleMouseIn(event)" onmouseout="handleMouseOut(event)" onmousemove="handleMouseMoved(event)"></canvas>
+			<div id="tools">
+				<span class="button" id="button1" onclick="buttonClicked(1)" onmouseover="buttonOver(1)" onmouseout="buttonOut(1)">
+					<img src="games/painter/image/button/1.png" alt="">
+				</span>
+				<span class="button" id="button2" onclick="buttonClicked(2)" onmouseover="buttonOver(2)" onmouseout="buttonOut(2)">
+					<img src="games/painter/image/button/2.png" alt="">
+				</span>
+				<span class="button" id="button3" onclick="buttonClicked(3)" onmouseover="buttonOver(3)" onmouseout="buttonOut(3)">
+					<img src="games/painter/image/button/3.png" alt="">
+				</span>
+				<span class="button" id="button4" onclick="buttonClicked(4)" onmouseover="buttonOver(4)" onmouseout="buttonOut(4)">
+					<img src="games/painter/image/button/4.png" alt="">
+				</span>
+				<span class="button" id="button5" onclick="buttonClicked(5)" onmouseover="buttonOver(5)" onmouseout="buttonOut(5)">
+					<img src="games/painter/image/button/5.png" alt="">
+				</span>
+				<span class="button" id="button6" onclick="buttonClicked(6)" onmouseover="buttonOver(6)" onmouseout="buttonOut(6)">
+					<img src="games/painter/image/button/6.png" alt="">
+				</span>
+				<span class="button" id="button7" onclick="buttonClicked(7)" onmouseover="buttonOver(7)" onmouseout="buttonOut(7)">
+					<img src="games/painter/image/button/7.png" alt="">
+				</span>
+				<span class="button" id="button8" onclick="buttonClicked(8)" onmouseover="buttonOver(8)" onmouseout="buttonOut(8)">
+					<img src="games/painter/image/button/8.png" alt="">
+				</span>
+				<span class="button" id="button9" onclick="buttonClicked(9)" onmouseover="buttonOver(9)" onmouseout="buttonOut(9)">
+					<img src="games/painter/image/button/9.png" alt="">
+				</span>
+				<span class="button" id="button10" onclick="buttonClicked(10)" onmouseover="buttonOver(10)" onmouseout="buttonOut(10)">
+					<img src="games/painter/image/button/10.png" alt="">
+				</span>
+				<span class="button" id="button11" onclick="buttonClicked(11)" onmouseover="buttonOver(11)" onmouseout="buttonOut(11)">
+					<img src="games/painter/image/button/11.png" alt="">
+				</span>
+				<span class="button" id="button12" onclick="buttonClicked(12)" onmouseover="buttonOver(12)" onmouseout="buttonOut(12)">
+					<img src="games/painter/image/button/12.png" alt="">
+				</span>
+				<span class="button" id="button13" onclick="buttonClicked(13)" onmouseover="buttonOver(13)" onmouseout="buttonOut(13)">
+					<img src="games/painter/image/button/13.png" alt="">
+				</span>
+				<span class="button" id="button14" onclick="buttonClicked(14)" onmouseover="buttonOver(14)" onmouseout="buttonOut(14)">
+					<img src="games/painter/image/button/14.png" alt="">
+				</span>
+				<span class="button" id="button15" onclick="buttonClicked(15)" onmouseover="buttonOver(15)" onmouseout="buttonOut(15)">
+					<img src="games/painter/image/button/15.png" alt="">
+				</span>
+				<span class="button" id="button16" onclick="buttonClicked(16)" onmouseover="buttonOver(16)" onmouseout="buttonOut(16)">
+					<img src="games/painter/image/button/16.png" alt="">
+				</span>
+				<span class="button" id="button17" onclick="buttonClicked(17)" onmouseover="buttonOver(17)" onmouseout="buttonOut(17)">
+					<img src="games/painter/image/button/17.png" alt="">
+				</span>
+				<span class="button" id="button18" onclick="buttonClicked(18)" onmouseover="buttonOver(18)" onmouseout="buttonOut(18)">
+					<img src="games/painter/image/button/18.png" alt="">
+				</span>
+				<span class="button" id="button19" onclick="buttonClicked(19)" onmouseover="buttonOver(19)" onmouseout="buttonOut(19)">
+					<img src="games/painter/image/button/19.png" alt="">
+				</span>
+				<span class="button" id="button20" onclick="buttonClicked(20)" onmouseover="buttonOver(20)" onmouseout="buttonOut(20)">
+					<img src="games/painter/image/button/20.png" alt="">
+				</span>
+				<div id="toolsSeparator">&nbsp;</div>
+				<a href="javascript:newCanvas()" class="toolbarButton" id="toolbarButtonNew" title="Очистить холст"><img src="games/painter/image/new.png" alt="Очистить холст"></a>
+			</div>
+		</div>
+    </body>
+</html>
+<!--
+Нука закрой исходный код, он тебе ненужон!
+-->
