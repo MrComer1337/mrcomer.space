@@ -1,0 +1,30 @@
+body, html {
+	background-color: #222222;
+}
+
+canvas {
+	border: 6px #333333 solid;
+	background-color: #000000;
+}
+
+#seeMore {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	width: 812px;
+	text-align: right;
+}
+
+#seeMore a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	text-decoration: none;
+	color: #999999;
+	float: right;
+}
+
+#seeMore a:hover {
+	color: #ffffff;
+	background-color: #000000;
+}
