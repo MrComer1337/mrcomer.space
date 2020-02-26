@@ -198,12 +198,18 @@ div#pp {
     -moz-transition: all .3s;
 }
 
-.clock-hover {
-	display: initial;
-	transition: all .3s;
-	-moz-transition: all .3s;
+.hover-effect {
+  transition: all .3s;
+  -moz-transition: all .3s;
 }
 
-.clock-hover:hover {
-	color: ff1493;
+.hover-effect:hover {
+  color: #ff1493;
+}
+
+.center {
+  text-align: center;
+  padding: 30px;
+  background-color: #00000067;
+  border-radius: 5px;
 }
