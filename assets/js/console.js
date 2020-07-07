@@ -26,7 +26,7 @@ const COMMANDS = {
 		'<span class="code">Ооо дааа, хакни эту суку полностью!</span>',
 	yt:
 		"Ютуб канал: <a href='https://youtube.com/MrComer17801?sub_confirmation=1' target='_blank' class='success link'>youtube.com/MrComer17801</a>",
-	vk:
+	vkontakte:
 		"Страница VK: <a href='https://vk.com/mr_comer' target='_blank' class='success link'>vk.com/mr_comer</a>",
 	inst:
 		"Инстаграм: <a href='https://instagram.com/mr.c0m3r' target='_blank' class='success link'>instagram.com/mr.c0m3r</a>",
