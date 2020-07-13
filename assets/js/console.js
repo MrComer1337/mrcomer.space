@@ -11,7 +11,7 @@ const COMMANDS = {
 	steam:
 		"Стим: <a href='https://steamcommunity.com/id/MrComerYT' target='_blank' class='success link'>steamcommunity.com/id/MrComerYT</a>",
 	discord:
-		"Дискорд: <a href='https://Discord.gg/RestlBro' target='_blank' class='success link'>discord.gg/restlbro</a> & <a href='https://discord.gg/V37ZbmN' target='_blank' class='success link'>discord.gg/dusty</a>",
+		"Дискорд: <a href='https://Discord.gg/RestlBro' target='_blank' class='success link'>discord.gg/restlbro</a> & <a href='https://discord.gg/TAW3Mjf' target='_blank' class='success link'>discord.gg/dusty</a>",
 	donate:
 		"QIWI Копилка: <a href='https://Qiwi.me/mrcomer' target='_blank' class='success link'>qiwi.me/mrcomer</a>",
 	
