@@ -1,2 +1,0 @@
-# mrcomer.space
-Landing Page
