@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+
+Disallow: /assets/
+Disallow: /files/
+Disallow: /startup.meta/
+
+Disallow: /404.html
+Disallow: /github.html
+Disallow: /instagram.html
+Disallow: /steam.html
+Disallow: /telegram.html
+Disallow: /tiktok.html
+Disallow: /vk.html
+Disallow: /youtube.html
